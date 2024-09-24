@@ -1,0 +1,50 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: red;
+    height: 7rem;
+    border-bottom: .5rem solid yellow;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.lives-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.panel-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.enemy {
+    background-color: red;
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+    cursor: pointer;
+}
